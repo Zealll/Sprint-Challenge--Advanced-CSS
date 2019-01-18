@@ -2,12 +2,20 @@
 
 .top {
     background-color: @nav-bg;
+
+    @media(max-width: 500px) {
+        width: 100%;
+    }
+
+    
     
     .top-content {
         .mainlayout;
         padding: 15px;
         text-align: center;
         border: @nav-border;
+
+       
         
         h1 {
             font-size: 3.2rem;
