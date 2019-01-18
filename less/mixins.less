@@ -1,1 +1,21 @@
 // Mixins Here
+
+.mainlayout() {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbtn(@m, @t, @f, @c) {
+    margin: @m;
+    text-decoration: @t;
+    font-size: @f;
+    color: @c;
+}
+
+.btn(@w, @bg, @c, @p) {
+    width: @w;
+    background: @bg;
+    color: @c;
+    cursor: @p;
+}

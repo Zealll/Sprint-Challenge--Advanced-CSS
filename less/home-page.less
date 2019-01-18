@@ -46,6 +46,19 @@
     display: flex;
     justify-content: center;
 
+    button {
+      .btn(35%, @btn-bg-color, white, pointer);
+      height: 30px;
+      font-size: 1.7rem;
+      border: @border-real;
+      border-radius: 5px;
+
+      &:hover {
+        background: lightblue;
+        color: red;
+      }
+    }
+
     .walk-text {
       width: 50%;
 
@@ -55,9 +68,6 @@
 
       p {
         margin-bottom: 26px;
-      }
-
-      .btn {
       }
     }
 
