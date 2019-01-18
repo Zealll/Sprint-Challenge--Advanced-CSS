@@ -173,6 +173,10 @@ p {
   .top {
     width: 100%;
   }
+  .top nav {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 .top .top-content {
   max-width: 800px;
@@ -189,7 +193,7 @@ p {
 .top .top-content nav a {
   margin: 0 15px;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #454A59;
 }
 .top .top-content nav a:hover {
@@ -204,6 +208,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro .earth {
+  width: 100%;
 }
 @media (max-width: 500px) {
   .home .intro {
