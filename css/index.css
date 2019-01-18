@@ -159,6 +159,7 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  padding-top: 90px;
 }
 @media (max-width: 500px) {
   .container {
@@ -168,6 +169,9 @@ p {
 }
 .top {
   background-color: #F6F6F6;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
 }
 @media (max-width: 500px) {
   .top {
