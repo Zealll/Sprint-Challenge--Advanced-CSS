@@ -50,7 +50,7 @@ ANSWER: Preprocessing would best be described as, taking a huge ammount of data,
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-ANSWER: my favourite concept is nesting. The list favourite one is variables.
+ANSWER: my favourite concept is nesting. The least favourite one is variables.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

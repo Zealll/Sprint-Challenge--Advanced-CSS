@@ -264,13 +264,13 @@ footer {
 .home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
-  padding: 50px 60px;
+  padding: 50px 8%;
   display: flex;
   justify-content: center;
 }
 @media (max-width: 500px) {
   .home .walk {
-    padding: 10px 15px;
+    padding: 10px 2%;
   }
 }
 .home .walk button {
@@ -284,8 +284,9 @@ footer {
   border-radius: 5px;
 }
 .home .walk button:hover {
-  background: lightblue;
-  color: red;
+  background: white;
+  color: black;
+  border: 1px solid black;
 }
 @media (max-width: 500px) {
   .home .walk button {
@@ -333,4 +334,12 @@ footer {
     display: flex;
     flex-direction: column-reverse;
   }
+}
+
+.home .intro .banner {
+  width: 100%;
+  background-image: url("../img/main-header.png");
+  height: 200px; 
+  background-size: cover;
+  background-position: center;
 }
